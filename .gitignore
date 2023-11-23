@@ -1,0 +1,5 @@
+docs
+resources
+*.log
+!.keeps
+.DS_Store

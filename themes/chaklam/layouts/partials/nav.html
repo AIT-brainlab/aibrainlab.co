@@ -1,0 +1,32 @@
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center justify-content-between">
+    <h1 class="logo">
+      <a href="/"><img style="padding-right: 20px;" src="{{ .Site.Params.logo }}">{{ .Site.Title }}</a>
+    </h1>
+    <nav id="navbar" class="navbar">
+      <ul class="nav nav-pills">
+        {{ $current := . }}
+        {{- range site.Menus.main }}
+        {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
+        {{ $active = or $active (eq .Name $current.Title) }}
+        {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "post")) }}
+        {{ $active = or $active (and (eq .Name "Tags") (eq $current.Section "tags")) }}
+        <li class="nav-item"><a class="{{ if $active }}active{{ end }}" href="{{ .URL }} {{- with .Params.section }}{{ . }}{{- end }}">
+            {{ .Name }}
+          </a></li>
+        {{- end }}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">&#127760; Language</a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+            {{ range $.Site.Home.AllTranslations }}
+            <a class="dropdown-item" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            {{ end }}
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- End Header -->

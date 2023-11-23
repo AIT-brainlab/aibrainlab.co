@@ -1,0 +1,78 @@
+theme      = "chaklam"
+publishDir = "docs"
+
+title      = "AI Brain Lab"
+
+[params]
+    logo = "/img/_logo.png"
+
+[menu]
+
+
+[taxonomies]
+  role = 'roles'
+
+# https://gohugo.io/getting-started/configuration/
+
+defaultContentLanguage = 'en'
+
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageDirection = 'ltr'
+    languageName = 'en'
+    weight = 1
+
+[[languages.en.menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+
+[[languages.en.menu.main]]
+  name = 'Features'
+  pageRef = '/'
+  weight = 20
+  params = { section='#features' }
+
+[[languages.en.menu.main]]
+  name = 'Use Cases'
+  pageRef = '/'
+  weight = 30
+  params = { section='#portfolio' }
+
+[[languages.en.menu.main]]
+  name = 'Pricing'
+  pageRef = '/'
+  weight = 40
+  params = { section='#pricing' }
+
+  [languages.th]
+    contentDir = 'content/th'
+    disabled = false
+    languageDirection = 'ltr'
+    languageName = 'th'
+    weight = 2
+
+[[languages.th.menu.main]]
+  name = 'หน้าหลัก'
+  pageRef = '/'
+  weight = 10
+
+[[languages.th.menu.main]]
+  name = 'คุณสมบัติ'
+  pageRef = '/'
+  weight = 20
+  params = { section='#features' }
+
+[[languages.th.menu.main]]
+  name = 'ตัวอย่างการใช้งาน'
+  pageRef = '/'
+  weight = 30
+  params = { section='#portfolio' }
+
+[[languages.th.menu.main]]
+  name = 'ราคา'
+  pageRef = '/'
+  weight = 40
+  params = { section='#pricing' }
