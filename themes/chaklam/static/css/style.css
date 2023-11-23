@@ -1950,3 +1950,6 @@ p {
     line-height: 1.7;
 }
 
+.portfolio-wrap img {
+  height: 175px;
+}

@@ -1,5 +1,5 @@
 ---
-hero: Established in 2019, we are bunch of engineers and scientists at Asian Institute of Technology, Thailand, specialize in delivering AI solution to challenging corporate and social problems through innovation and design thinking.
+hero: Established in 2019, we specialize in delivering AI solution to challenging corporate and social problems through innovation and design thinking.  We have experience working with 
 hero2: Our AI solution with great user experience, ease of use, and highly optimized as our primary mission.
 
 bt1: Try now!
