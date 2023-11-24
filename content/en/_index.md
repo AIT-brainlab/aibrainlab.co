@@ -1,6 +1,7 @@
 ---
 hero: Established in 2019, we specialize in delivering AI solution to challenging business problems through research and design thinking.
-hero2: Our AI solution with understanding business needs, great user experience, ease of use as our primary mission.
+hero2: We provide solutions both in form of API and of project or consultation basis.
+hero3: Our AI solution with understanding business needs, great user experience, ease of use as our primary mission.
 
 bt1: Demo
 bt2: Contact Us
