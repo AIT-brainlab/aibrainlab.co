@@ -1,16 +1,16 @@
 ---
-hero: Established in 2019, we specialize in delivering AI solution to challenging corporate and social problems through innovation and design thinking.  We have experience working with 
-hero2: Our AI solution with great user experience, ease of use, and highly optimized as our primary mission.
+hero: Established in 2019, we specialize in delivering AI solution to challenging business problems through research and design thinking.
+hero2: Our AI solution with understanding business needs, great user experience, ease of use as our primary mission.
 
-bt1: Try now!
-bt2: Check out our demos!
+bt1: Demo
+bt2: Contact Us
 
-f1_title: ChatData
-f1_desc: Assist corporates and SMEs to build their own GPT through our easy to use ChatData platform and our own developed Thai LLM.  Allow companies to freely customize prompts, set up predefined rules, as well as fine-tuning and reinforcing the models, all through our user-friendly UI.  Supporting use cases include building GPT for customer support, knowlege base, job interviews, finance advisor, finance reporting, and much more.  
-f2_title: Scholarly
-f2_desc: Assist researchers and writers to power their writing using AI in one package.  Leveraging Large Language Models (LLM) to power your research writing through style transfer, citations recommendations, grammar checking, equation checking, all embeded inside a highly user-friendly editor interface supporting both .docx and latex format.
-f3_title: ChatRad
-f3_desc: Assist radiologists in working with medical imaging data.  Leveraging powerful image models with multimodal models with highly user-friendly interface, radiologists can issue chat commands or the traditional menu commands to perform AI-powered dianogsis, automatic annotation, and automatic reporting.  Designed to seemlessly integrate with electronic health records (EHRs) and Picture Archiving and Communication Systems (PACs).
+f1_title: Language
+f1_desc: Specialized in providing customized Thai language solution using large language models and ChatGPT.  
+f2_title: Speech
+f2_desc: Specialized in providing customized Thai speech solution using state-of-art transcriber, synthesizer, language models, and emotional AI.
+f3_title: Medical imaging
+f3_desc: Specialized in providing solutions to medical imaging using AI and image-text multimodal models.
 
 use_cases_title: Demo
 use_cases_slogan: This is what you can do
@@ -22,11 +22,20 @@ use_cases_btn1: Demo
 use_cases_title2: Knowledge base
 use_cases_desc2: Serves as a knowledge base over vast amount of documents, delivering quick and reliable answers to user queries.
 
-use_cases_title3: HR screening / interviewing
-use_cases_desc3: Streamlines HR screening and interviewing by conducting initial candidate assessments and answering candidate queries.
+use_cases_title3: Job interview
+use_cases_desc3: Perform job interview using AI avatar bot with automatic and predefined candidate queries.
 
 use_cases_title4: Personal financial advisor
 use_cases_desc4: Provide summary of stock news tailored to you, provide recommendations of interesting stocks, set alerts and notifications, and much more.
+
+use_cases_title5: Research Writing Assistant
+use_cases_desc5: Assist researchers and writers to power their writing using AI in a single editor through style transfer, citations recommendations, grammar checking, equation checking, and much more.
+
+use_cases_title6: Thai Government Style Writing
+use_cases_desc6: A paraphrasing system that can turn informal Thai text to government style text. 
+
+use_cases_title7: Medical AI
+use_cases_desc7: Assist radiologists in working with medical imaging data by providing AI-powered diagnosis, automatic annotation, and automatic reporting.  Designed to seemlessly integrate with electronic health records (EHRs) and Picture Archiving and Communication Systems (PACs).
 
 pricing_title: Pricing
 pricing_slogan: Pay for what you need.

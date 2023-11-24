@@ -30,12 +30,6 @@ defaultContentLanguage = 'en'
   weight = 10
 
 [[languages.en.menu.main]]
-  name = 'Products'
-  pageRef = '/'
-  weight = 20
-  params = { section='#features' }
-
-[[languages.en.menu.main]]
   name = 'Demo'
   pageRef = '/'
   weight = 30
@@ -58,12 +52,6 @@ defaultContentLanguage = 'en'
   name = 'หน้าหลัก'
   pageRef = '/'
   weight = 10
-
-[[languages.th.menu.main]]
-  name = 'ผลิตภัณฑ์'
-  pageRef = '/'
-  weight = 20
-  params = { section='#features' }
 
 [[languages.th.menu.main]]
   name = 'ตัวอย่างการใช้งาน'
