@@ -36,9 +36,15 @@ defaultContentLanguage = 'en'
   params = { section='#portfolio' }
 
 [[languages.en.menu.main]]
+name = 'Connect to our API'
+pageRef = '/'
+weight = 40
+params = { section='#' }
+
+[[languages.en.menu.main]]
   name = 'Contact Us'
   pageRef = '/'
-  weight = 40
+  weight = 50
   params = { section='#contact' }
 
   [languages.th]
@@ -60,7 +66,13 @@ defaultContentLanguage = 'en'
   params = { section='#portfolio' }
 
 [[languages.th.menu.main]]
+name = 'ต่อกับ API ของเรา'
+pageRef = '/'
+weight = 40
+params = { section='#' }
+
+[[languages.th.menu.main]]
   name = 'ติตต่อ'
   pageRef = '/'
-  weight = 40
+  weight = 50
   params = { section='#contact' }
