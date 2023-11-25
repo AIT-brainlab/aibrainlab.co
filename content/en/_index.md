@@ -36,7 +36,7 @@ use_cases_title6: Thai Government Style Writing
 use_cases_desc6: A paraphrasing system that can turn informal Thai text to government style text. 
 
 use_cases_title7: Medical AI
-use_cases_desc7: Assist radiologists in working with medical imaging data by providing AI-powered diagnosis, automatic annotation, and automatic reporting.  Designed to seemlessly integrate with electronic health records (EHRs) and Picture Archiving and Communication Systems (PACs).
+use_cases_desc7: Assist radiologists in working with medical imaging data by providing AI-powered diagnosis, automatic annotation, and automatic reporting.
 
 pricing_title: Pricing
 pricing_slogan: Pay for what you need.
