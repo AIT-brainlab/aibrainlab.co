@@ -14,45 +14,14 @@ title      = "AI Brain Lab"
 
 # https://gohugo.io/getting-started/configuration/
 
-defaultContentLanguage = 'en'
+defaultContentLanguage = "th"
+defaultContentLanguageInSubdir = 'true'
 
-[languages]
-  [languages.en]
-    contentDir = 'content/en'
-    disabled = false
-    languageDirection = 'ltr'
-    languageName = 'en'
-    weight = 1
-
-[[languages.en.menu.main]]
-  name = 'Home'
-  pageRef = '/'
-  weight = 10
-
-[[languages.en.menu.main]]
-  name = 'Demo'
-  pageRef = '/'
-  weight = 30
-  params = { section='#portfolio' }
-
-[[languages.en.menu.main]]
-name = 'Connect to our API'
-pageRef = '/'
-weight = 40
-params = { section='#' }
-
-[[languages.en.menu.main]]
-  name = 'Contact Us'
-  pageRef = '/'
-  weight = 50
-  params = { section='#contact' }
-
-  [languages.th]
+[languages.th]
     contentDir = 'content/th'
     disabled = false
     languageDirection = 'ltr'
     languageName = 'th'
-    weight = 2
 
 [[languages.th.menu.main]]
   name = 'หน้าหลัก'
@@ -76,3 +45,34 @@ params = { section='#' }
   pageRef = '/'
   weight = 50
   params = { section='#contact' }
+
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageDirection = 'ltr'
+    languageName = 'en'
+
+[[languages.en.menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+
+[[languages.en.menu.main]]
+  name = 'Demo'
+  pageRef = '/'
+  weight = 30
+  params = { section='#portfolio' }
+
+[[languages.en.menu.main]]
+name = 'Connect to our API'
+pageRef = '/'
+weight = 40
+params = { section='#' }
+
+[[languages.en.menu.main]]
+  name = 'Contact Us'
+  pageRef = '/'
+  weight = 50
+  params = { section='#contact' }
+  

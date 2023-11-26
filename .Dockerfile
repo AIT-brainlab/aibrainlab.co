@@ -20,7 +20,6 @@ ENV LC_ALL en_US.UTF-8
 ENV LANG en_US.UTF-8  
 ENV LANGUAGE en_US:en  
 
-
 # Installing GoLang
 RUN apt install -y wget
 
@@ -36,7 +35,6 @@ ENV GOBIN $GOPATH/bin
 # Install HUGO
 RUN go install github.com/gohugoio/hugo@latest
 WORKDIR /home/project
-
 
 EXPOSE 1313
 CMD tail -f /dev/null
