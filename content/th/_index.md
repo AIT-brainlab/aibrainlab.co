@@ -51,6 +51,9 @@ service_desc_3: API นี้ช่วยให้คุณสามารถใ
 service_title_4: Thai Language Model Speech-to-Text and Text-to-Speech API
 service_desc_4: API นี้ช่วยให้คุณสามารถใช้ Speech-to-Text และ Text-to-Speech ของเราเพื่อพัฒนาแอปพลิเคชันที่เกี่ยวข้องกับการพูด เช่น การโทรอัตโนมัติ, การสอนบอท หรือการสัมภาษณ์งาน
 
+service_btn1: อ่านเอกสารและบทแนะนำของเรา
+service_btn2: ตรวจสอบตารางราคา
+
 pricing_title: ราคา
 pricing_slogan: จ่ายตามที่คุณต้องการ
 
