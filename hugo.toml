@@ -30,10 +30,10 @@ defaultContentLanguageInSubdir= true
   params = { section='#portfolio' }
 
 [[languages.th.menu.main]]
-name = 'ต่อกับ API ของเรา'
+name = 'เชื่อมต่อกับ API ของเรา'
 pageRef = '/'
 weight = 40
-params = { section='#' }
+params = { section='#services' }
 
 [[languages.th.menu.main]]
   name = 'ติตต่อ'
@@ -61,7 +61,7 @@ params = { section='#' }
 name = 'Connect to our API'
 pageRef = '/'
 weight = 40
-params = { section='#' }
+params = { section='#services' }
 
 [[languages.en.menu.main]]
   name = 'Contact Us'
