@@ -38,6 +38,23 @@ use_cases_desc6: A paraphrasing system that can turn informal Thai text to gover
 use_cases_title7: Medical AI
 use_cases_desc7: Assist radiologists in working with medical imaging data by providing AI-powered diagnosis, automatic annotation, and automatic reporting.
 
+service_title:  Connect to our API
+service_desc:  Our API service allows easy integration with our advanced models. Designed for efficiency, it's a pay-as-you-go system, so you only pay for what you need. Ideal for enhancing your applications or streamlining your operations.
+service_title_1: Thai Language Model Embedding API
+service_desc_1: This API allows you to utilize our Embedding API for developing your own Thai NLP applications including sentiment analysis, name entity recognition, knowledge retrieval and more.
+
+service_title_2: Thai Language Model Instruct API
+service_desc_2: This API allows you to utilize our Instruct API for developing chatbot assistant and instruction-based applications.
+
+service_title_3: Thai Language Model Image-to-Text and Text-to-Image API
+service_desc_3: This API allows you to utilize our Image-to-Text and Text-to-Image API for developing image-text applications such as image search using text, or visual question answering.
+
+service_title_4: Thai Language Model Speech-to-Text and Text-to-Speech API
+service_desc_4: This API allows you to utilize our Speech-to-Text and Text-to-Speech for developing speech-related applications such as automatic calling, bot teaching, or job interviews.
+
+service_btn1: Read our documentation and tutorials
+service_btn2: Check the pricing table
+
 pricing_title: Pricing
 pricing_slogan: Pay for what you need.
 

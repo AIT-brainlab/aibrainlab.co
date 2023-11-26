@@ -6,22 +6,17 @@ title      = "AI Brain Lab"
 [params]
     logo = "/img/_logo.png"
 
-[menu]
-
-
 [taxonomies]
   role = 'roles'
 
 # https://gohugo.io/getting-started/configuration/
 
 defaultContentLanguage = "th"
-defaultContentLanguageInSubdir = 'true'
+defaultContentLanguageInSubdir= true
 
 [languages.th]
     contentDir = 'content/th'
-    disabled = false
-    languageDirection = 'ltr'
-    languageName = 'th'
+    languageName = 'Thai'
 
 [[languages.th.menu.main]]
   name = 'หน้าหลัก'
@@ -49,9 +44,7 @@ params = { section='#' }
 [languages]
   [languages.en]
     contentDir = 'content/en'
-    disabled = false
-    languageDirection = 'ltr'
-    languageName = 'en'
+    languageName = 'English'
 
 [[languages.en.menu.main]]
   name = 'Home'
