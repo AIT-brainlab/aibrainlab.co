@@ -39,7 +39,7 @@ use_cases_title7: Medical AI
 use_cases_desc7: Assist radiologists in working with medical imaging data by providing AI-powered diagnosis, automatic annotation, and automatic reporting.
 
 service_title:  Connect to our API
-service_desc:  Our API service allows easy integration with our advanced models. Designed for efficiency, it's a pay-as-you-go system, so you only pay for what you need. Ideal for enhancing your applications or streamlining your operations.
+service_desc:  Our API service allows easy integration with our advanced models. It's a pay-as-you-go system, so you only pay for what you need.
 service_title_1: Thai Language Model Embedding API
 service_desc_1: This API allows you to utilize our Embedding API for developing your own Thai NLP applications including sentiment analysis, name entity recognition, knowledge retrieval and more.
 
