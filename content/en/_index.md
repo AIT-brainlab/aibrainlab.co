@@ -1,7 +1,6 @@
 ---
-hero: Established in 2019, we specialize in delivering AI solution to challenging business problems through research and design thinking.
-hero2: We provide solutions both in form of API and of project or consultation basis.
-hero3: Our AI solution with understanding business needs, great user experience, ease of use as our primary mission.
+hero: AI Brain Lab is a Thai venture studio at Asian Institute of Technology focusing on grooming and supporting AI-related startups.   We are interested in the areas of natural language processing, speech recognition, medical imaging, and finance.   
+hero2: We seek to support young talent to build their dreams, while supporting them especially on the initial stage, including monthly compensation, finding investors, finding partners, and other infrastructural support.
 
 bt1: Demo
 bt2: Contact Us
