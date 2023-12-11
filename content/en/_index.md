@@ -1,16 +1,16 @@
 ---
-hero: AI Brain Lab is a Thai venture studio at Asian Institute of Technology focusing on grooming and supporting AI-related startups.   We are interested in the areas of natural language processing, speech recognition, medical imaging, and finance.   
-hero2: We seek to support young talent to build their dreams, while supporting them especially on the initial stage, including monthly compensation, finding investors, finding partners, and other infrastructural support.
+hero: AI Brain Lab is an AI service provider based at Bangkok, Thailand.   Delving into diverse AI realms such as natural language processing, medical imaging, and ESG-related AI, we bring innovation to your fingertips.
+hero2: At AI Brain Lab, our core focus revolves around grasping your business needs, crafting exceptional user experiences, and fostering meaningful partnerships. Join us on a serene journey where your goals align seamlessly with our primary mission.
 
 bt1: Demo
 bt2: Contact Us
 
-f1_title: Language
-f1_desc: Specialized in providing customized Thai language solution using large language models and ChatGPT.  
-f2_title: Speech
-f2_desc: Specialized in providing customized Thai speech solution using state-of-art transcriber, synthesizer, language models, and emotional AI.
-f3_title: Medical imaging
-f3_desc: Specialized in providing solutions to medical imaging using AI and image-text multimodal models.
+f1_title: Language / Speech
+f1_desc: Specialized in providing customized Thai language/speech solution using large language models and ChatGPT.  
+f3_title: Report generation
+f3_desc: Streamline and enhance the report creation process by transforming raw data into comprehensive and coherent reports, saving time and ensuring consistency.
+f2_title: Medical imaging
+f2_desc: Specialized in providing solutions to medical imaging using AI and image-text multimodal models.
 
 use_cases_title: Demo
 use_cases_slogan: This is what you can do
@@ -36,6 +36,10 @@ use_cases_desc6: A paraphrasing system that can turn informal Thai text to gover
 
 use_cases_title7: Medical AI
 use_cases_desc7: Assist radiologists in working with medical imaging data by providing AI-powered diagnosis, automatic annotation, and automatic reporting.
+
+use_cases_title8: ESG Reporting and Analysis
+use_cases_desc8: Automatic generation and analysis of ESG reports, saving time and consistency.
+
 
 service_title:  Connect to our API
 service_desc:  Our API service allows easy integration with our advanced models. It's a pay-as-you-go system, so you only pay for what you need.
