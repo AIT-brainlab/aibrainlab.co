@@ -1,6 +1,8 @@
+defaultContentLanguage = "th"
+defaultContentLanguageInSubdir= true
 theme      = "chaklam"
 publishDir = "docs"
-baseURL    = "https://www.aibrainlab.co"
+baseURL    = "https://www.aibrainlab.co/"
 
 title      = "AI Brain Lab"
 
@@ -11,9 +13,6 @@ title      = "AI Brain Lab"
   role = 'roles'
 
 # https://gohugo.io/getting-started/configuration/
-
-defaultContentLanguage = "th"
-defaultContentLanguageInSubdir= true
 
 [languages.th]
     contentDir = 'content/th'
