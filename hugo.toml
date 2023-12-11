@@ -1,5 +1,6 @@
 theme      = "chaklam"
 publishDir = "docs"
+baseURL    = "https://www.aibrainlab.co"
 
 title      = "AI Brain Lab"
 

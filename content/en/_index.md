@@ -13,7 +13,7 @@ f2_title: Medical imaging
 f2_desc: Specialized in providing solutions to medical imaging using AI and image-text multimodal models.
 
 use_cases_title: Demo
-use_cases_slogan: This is what you can do
+use_cases_slogan: This is what our AI Brain Engine can do
 
 use_cases_title1: Customer Support
 use_cases_desc1: Provides 24/7 customer support, assisting users with product inquiries, troubleshooting, and order status updates efficiently and accurately.
@@ -40,19 +40,18 @@ use_cases_desc7: Assist radiologists in working with medical imaging data by pro
 use_cases_title8: ESG Reporting and Analysis
 use_cases_desc8: Automatic generation and analysis of ESG reports, saving time and consistency.
 
-
 service_title:  Connect to our API
-service_desc:  Our API service allows easy integration with our advanced models. It's a pay-as-you-go system, so you only pay for what you need.
-service_title_1: Thai Language Model Embedding API
+service_desc:  Our AI Brain Suite API service allows easy integration to your existing systems with our advanced models.
+service_title_1: Thai Embedding API
 service_desc_1: This API allows you to utilize our Embedding API for developing your own Thai NLP applications including sentiment analysis, name entity recognition, knowledge retrieval and more.
 
-service_title_2: Thai Language Model Instruct API
+service_title_2: Thai Instruct API
 service_desc_2: This API allows you to utilize our Instruct API for developing chatbot assistant and instruction-based applications.
 
-service_title_3: Thai Language Model Image-to-Text and Text-to-Image API
+service_title_3: Thai Image2Text & Text2Image API
 service_desc_3: This API allows you to utilize our Image-to-Text and Text-to-Image API for developing image-text applications such as image search using text, or visual question answering.
 
-service_title_4: Thai Language Model Speech-to-Text and Text-to-Speech API
+service_title_4: Thai Speech2Text and Text2Speech API
 service_desc_4: This API allows you to utilize our Speech-to-Text and Text-to-Speech for developing speech-related applications such as automatic calling, bot teaching, or job interviews.
 
 service_btn1: Read our documentation and tutorials
