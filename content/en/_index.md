@@ -12,6 +12,26 @@ f3_desc: Streamline and enhance the report creation process by transforming raw 
 f2_title: Medical imaging
 f2_desc: Specialized in providing solutions to medical imaging using AI and image-text multimodal models.
 
+about_title: About Us
+about_slogan: Our vision and mission
+
+vision_title: Vision
+vision_desc: AI Brain Lab envisions to become national leading AI service providers that positively impact society, enhance human well being and make an overall better world.
+
+values_title: Core values
+values_desc1: Excellence -  strive for the highest standards of quality
+values_desc2: Continuous Improvement - actively seeks opportunities for refinement
+values_desc3: A Better World - strive to create a world that is better in all dimensions
+
+mission_title: Mission
+mission_desc: Our mission is to provide AI-powered products and services that revolutionize various sectors which then positively impact society, enhance human well-being, and create an overall better world.   To achieve this, we missionarize to
+mission_desc1: nurture young generations and empower them to create impact
+mission_desc2: establish partnerships rather than clients to jointly pursue world-changing societal goals
+mission_desc3: together, deliver high-quality AI-driven solutions for the greater good
+
+team_title: Team
+team_slogan: Our dynamic team of AI experts, tech enthusiasts, and creative minds collaborates seamlessly to drive innovation. Committed to excellence and client success, we're shaping the future of AI with passion and purpose
+
 use_cases_title: Demo
 use_cases_slogan: This is what our AI Brain Engine can do
 

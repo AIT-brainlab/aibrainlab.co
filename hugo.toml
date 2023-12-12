@@ -24,6 +24,12 @@ title      = "AI Brain Lab"
   weight = 10
 
 [[languages.th.menu.main]]
+  name = 'เกี่ยวกับเรา'
+  pageRef = '/'
+  weight = 20
+  params = { section='#about' }
+
+[[languages.th.menu.main]]
   name = 'ตัวอย่างการใช้งาน'
   pageRef = '/'
   weight = 30
@@ -50,6 +56,12 @@ params = { section='#services' }
   name = 'Home'
   pageRef = '/'
   weight = 10
+
+[[languages.en.menu.main]]
+  name = 'About'
+  pageRef = '/'
+  weight = 20
+  params = { section='#about' }
 
 [[languages.en.menu.main]]
   name = 'Demo'
