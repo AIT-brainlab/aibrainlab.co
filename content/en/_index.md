@@ -32,8 +32,8 @@ mission_desc3: together, deliver high-quality AI-driven solutions for the greate
 team_title: Team
 team_slogan: Our dynamic team of AI experts, tech enthusiasts, and creative minds collaborates seamlessly to drive innovation. Committed to excellence and client success, we're shaping the future of AI with passion and purpose
 
-use_cases_title: Demo
-use_cases_slogan: This is what our AI Brain Suite can do
+use_cases_title: Our Products
+use_cases_slogan: ESG Report, Medical AI, ChatData, and Scholarly
 
 use_cases_title1: Customer Support
 use_cases_desc1: Provides 24/7 customer support, assisting users with product inquiries, troubleshooting, and order status updates efficiently and accurately.

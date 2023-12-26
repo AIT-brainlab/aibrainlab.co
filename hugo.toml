@@ -30,10 +30,10 @@ title      = "AI Brain Lab"
   params = { section='#about' }
 
 [[languages.th.menu.main]]
-  name = 'ตัวอย่างการใช้งาน'
+  name = 'ผลิตภัณฑ์'
   pageRef = '/'
   weight = 30
-  params = { section='#portfolio' }
+  params = { section='#product' }
 
 [[languages.th.menu.main]]
 name = 'เชื่อมต่อกับ API ของเรา'
@@ -64,10 +64,10 @@ params = { section='#services' }
   params = { section='#about' }
 
 [[languages.en.menu.main]]
-  name = 'Demo'
+  name = 'Product'
   pageRef = '/'
   weight = 30
-  params = { section='#portfolio' }
+  params = { section='#product' }
 
 [[languages.en.menu.main]]
 name = 'Connect to our API'

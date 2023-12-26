@@ -8,8 +8,8 @@
       <div class="col-xl-7 col-lg-9 text-center">
         <h1>AI Brain Lab</h1>
         <p style="margin-top: 10px;" class="lead text-muted">{{ .Params.hero }}</p>
-        {{/*  <p class="lead text-muted">{{ .Params.hero2 }}</p>  */}}
-        {{/*  <p class="lead text-muted">{{ .Params.hero3 }}</p>  */}}
+        {{/* <p class="lead text-muted">{{ .Params.hero2 }}</p> */}}
+        {{/* <p class="lead text-muted">{{ .Params.hero3 }}</p> */}}
       </div>
     </div>
     <div class="text-center">
@@ -88,14 +88,21 @@
 
   </section><!-- End About Section -->
 
-  <section id="about-video" class="about-video">
+  <!-- ======= ESG Report Section ======= -->
+  <section id="product" class="about-video">
     <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>{{ .Params.use_cases_title }}</h2>
+        <p>{{ .Params.use_cases_slogan }}</p>
+      </div>
 
       <div class="row">
 
         <div class="col-lg-6 video-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
           <img src="/img/portfolio/esg_.jpg" class="img-fluid" alt="">
-          <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4" data-vbtype="video"
+            data-autoplay="true"></a>
         </div>
 
         <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
@@ -104,14 +111,22 @@
             Support corporates to generate ESG / sustainability related reports within a few minutes.
           </p>
           <ul>
-            <li><i class="bx bx-check-double"></i> English language powered by state-of-the-art open-sourced (e.g., mistral) or proprietary models (e.g., OpenAI).</li>
+            <li><i class="bx bx-check-double"></i> English language powered by state-of-the-art open-sourced (e.g.,
+              mistral) or proprietary models (e.g., OpenAI).</li>
             <li><i class="bx bx-check-double"></i> Thai language powered by our Thai embedding and instruct models.</li>
             <li><i class="bx bx-check-double"></i> Your company info is kept privately and securely.</li>
-            <li><i class="bx bx-check-double"></i> Provides a user-friendly form interface where you can easily input your company information in few minutes, and the report will be then generated.</li>
+            <li><i class="bx bx-check-double"></i> Provides a user-friendly form interface where you can easily input
+              your company information in few minutes, and the report will be then generated.</li>
             <li><i class="bx bx-check-double"></i> Provides more than 10 formats of format to choose from.</li>
-            <li><i class="bx bx-check-double"></i> Help your company keep track of sustainability measures through dashboardthat can be directly incorporated onto the report.</li>
-            <li><i class="bx bx-check-double"></i> Don't like what AI has generated?  Allow users to download for further revision.</li>
+            <li><i class="bx bx-check-double"></i> Help your company keep track of sustainability measures through
+              dashboardthat can be directly incorporated onto the report.</li>
+            <li><i class="bx bx-check-double"></i> Don't like what AI has generated? Allow users to download for further
+              revision.</li>
           </ul>
+          <div class="mt-3">
+            <button style="padding: 0px 60px 0px 60px;" type="button" class="btn btn-outline-primary">{{
+              .Params.use_cases_btn1 }}</button>
+          </div>
         </div>
 
       </div>
@@ -119,7 +134,8 @@
     </div>
   </section><!-- End About Video Section -->
 
-  <section id="about-video" class="about-video">
+  <!-- ======= Medical AI Section ======= -->
+  <section id="medical" class="about-video section-bg">
     <div class="container" data-aos="fade-up">
 
       <div class="row">
@@ -130,16 +146,24 @@
             Facilitate radiologists with AI-powered segmentation, annotation, reporting, and diagnosis.
           </p>
           <ul>
-            <li><i class="bx bx-check-double"></i> Powered by state-of-the-art biomedical vision models, allowing radiologists to ask AI to help perform segmentation, annotation, report geneation, and diagnosis.</li>
-            <li><i class="bx bx-check-double"></i> Powered by state-of-the-art vision-text models that can allow radiologists to ask textual questions on the medical images.</li>
-            <li><i class="bx bx-check-double"></i> Synergizes with radiologist expertise by allowing them to collaborate with AI results through annotation editing or report customization.</li>
+            <li><i class="bx bx-check-double"></i> Powered by state-of-the-art biomedical vision models, allowing
+              radiologists to ask AI to help perform segmentation, annotation, report geneation, and diagnosis.</li>
+            <li><i class="bx bx-check-double"></i> Powered by state-of-the-art vision-text models that can allow
+              radiologists to ask textual questions on the medical images.</li>
+            <li><i class="bx bx-check-double"></i> Synergizes with radiologist expertise by allowing them to collaborate
+              with AI results through annotation editing or report customization.</li>
             <li><i class="bx bx-check-double"></i> Supports various input such as CT scans, fMRI, and MRIs.</li>
           </ul>
+          <div class="mt-3">
+            <button style="padding: 0px 60px 0px 60px;" type="button" class="btn btn-outline-primary">{{
+              .Params.use_cases_btn1 }}</button>
+          </div>
         </div>
 
         <div class="col-lg-6 video-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
           <img src="/img/portfolio/mri.jpg" class="img-fluid" alt="">
-          <a href="https://youtu.be/XV33FlJNbag?si=YYcZXeu0eSdlpftC" class="glightbox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          <a href="https://youtu.be/XV33FlJNbag?si=YYcZXeu0eSdlpftC" class="glightbox play-btn mb-4" data-vbtype="video"
+            data-autoplay="true"></a>
         </div>
 
       </div>
@@ -147,38 +171,133 @@
     </div>
   </section><!-- End About Video Section -->
 
-  <section id="about-video" class="about-video">
+  <!-- ======= ChatData Section ======= -->
+  <section id="chatdata portfolio" class="about-video portfolio">
     <div class="container" data-aos="fade-up">
 
       <div class="row">
 
         <div class="col-lg-6 video-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
           <img src="/img/chatdata.jpg" class="img-fluid" alt="">
-          <a href="https://www.youtube.com/watch?v=n6CsBuIEgoc" class="glightbox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          <a href="https://www.youtube.com/watch?v=n6CsBuIEgoc" class="glightbox play-btn mb-4" data-vbtype="video"
+            data-autoplay="true"></a>
         </div>
 
         <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-          <a target="_blank" href="https://www.youtube.com/watch?v=n6CsBuIEgoc"><h3>ChatData</h3></a>
+          <a target="_blank" href="https://www.youtube.com/watch?v=n6CsBuIEgoc">
+            <h3>ChatData</h3>
+          </a>
           <p class="fst-italic">
             Allows your company to deploy your chatbot assistant in few minutes.
           </p>
           <ul>
-            <li><i class="bx bx-check-double"></i> English language powered by state-of-the-art open-sourced (e.g., mistral) or proprietary models (e.g., OpenAI).</li>
+            <li><i class="bx bx-check-double"></i> English language powered by state-of-the-art open-sourced (e.g.,
+              mistral) or proprietary models (e.g., OpenAI).</li>
             <li><i class="bx bx-check-double"></i> Thai language powered by our Thai embedding and instruct models.</li>
             <li><i class="bx bx-check-double"></i> Your company info is kept privately and securely.</li>
-            <li><i class="bx bx-check-double"></i> Provides full customization and rich features  including selection of retrievers, prompt customization, the ability to perform reinforcement learning and instruction tuning, add in prebuilt rules, and much more, all through our user-friendly interface, without any coding or technical skills.</li>
+            <li><i class="bx bx-check-double"></i> Provides full customization and rich features including selection of
+              retrievers, prompt customization, the ability to perform reinforcement learning and instruction tuning,
+              add in prebuilt rules, and much more, all through our user-friendly interface, without any coding or
+              technical skills.</li>
           </ul>
           <p>
-            Example use cases include:  customer support, knowledge base, job interview, financial advisor, writing, report generation.
+            Example use cases include: customer support, knowledge base, job interview, financial advisor, writing,
+            report generation.
           </p>
         </div>
 
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a target="_blank" href="https://youtu.be/TM8VHCVCgZg?si=1Myf2djAvSd6sA7V">
+              <div class="portfolio-wrap">
+                <img src="/img/portfolio/cs_text.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>{{ .Params.use_cases_title1 }}</h4>
+                  <p>{{ .Params.use_cases_desc1 }}</p>
+                </div>
+              </div>
+            </a>
+            <div class="mt-3 text-center">
+              <a target="_blank" href="http://back.tokyo.cs.ait.ac.th/set_config_salegpt"><button
+                  style="padding: 0px 60px 0px 60px;" type="button" class="btn btn-outline-primary">{{
+                  .Params.use_cases_btn1 }}</button></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a target="_blank" href="https://youtu.be/yaRK5x5v63w">
+              <div class="portfolio-wrap">
+                <img src="/img/portfolio/qa_text.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>{{ .Params.use_cases_title2 }}</h4>
+                  <p>{{ .Params.use_cases_desc2 }}</p>
+                </div>
+              </div>
+            </a>
+            <div class="mt-3 text-center">
+              <a target="_blank" href="http://back.tokyo.cs.ait.ac.th/demo_knowledge_base"><button
+                  style="padding: 0px 60px 0px 60px;" type="button" class="btn btn-outline-primary">{{
+                  .Params.use_cases_btn1 }}</button></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a target="_blank" href="https://youtu.be/x0wkzPLoBjA">
+              <div class="portfolio-wrap">
+                <img src="/img/portfolio/interview_text.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>{{ .Params.use_cases_title3 }}</h4>
+                  <p>{{ .Params.use_cases_desc3 }}</p>
+                </div>
+              </div>
+            </a>
+            <div class="mt-3 text-center">
+              <a target="_blank" href="http://back.tokyo.cs.ait.ac.th/demo_interview_part1"><button
+                  style="padding: 0px 60px 0px 60px;" type="button" class="btn btn-outline-primary">{{
+                  .Params.use_cases_btn1 }}</button></a>
+            </div>
+          </div>
+            
+        </div>
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a target="_blank" href="https://youtu.be/Ljo_Um9fh_Y">
+              <div class="portfolio-wrap">
+                <img src="/img/portfolio/finance_text.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>{{ .Params.use_cases_title4 }}</h4>
+                  <p>{{ .Params.use_cases_desc4 }}</p>
+                </div>
+              </div>
+            </a>
+            <div class="mt-3 text-center">
+              <a target="_blank" href="http://back.tokyo.cs.ait.ac.th/demo_finance_v2"><button
+                  style="padding: 0px 60px 0px 60px;" type="button" class="btn btn-outline-primary">{{
+                  .Params.use_cases_btn1 }}</button></a>
+            </div>
+          </div>  
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a target="_blank" href="https://youtu.be/eK-lxMjvbVU">
+              <div class="portfolio-wrap">
+                <img src="/img/portfolio/formal_text.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>{{ .Params.use_cases_title6 }}</h4>
+                  <p>{{ .Params.use_cases_desc6 }}</p>
+                </div>
+              </div>
+            </a>
+            <div class="mt-3 text-center">
+              <a target="_blank" href="http://thai2gov.tokyo.cs.ait.ac.th/"><button style="padding: 0px 60px 0px 60px;"
+                  type="button" class="btn btn-outline-primary">{{
+                  .Params.use_cases_btn1 }}</button></a>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
   </section><!-- End About Video Section -->
 
-  <section id="about-video" class="about-video">
+  <!-- ======= Scholarly Section ======= -->
+  <section id="scholarly" class="about-video section-bg">
     <div class="container" data-aos="fade-up">
 
       <div class="row">
@@ -186,19 +305,28 @@
         <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
           <h3>Scholarly</h3>
           <p class="fst-italic">
-            Facilitate researchers with AI-powered style paraphrasing, citation recommendation, abstract generation, grammar checkers and much more.
+            Facilitate researchers with AI-powered style paraphrasing, citation recommendation, abstract generation,
+            grammar checkers and much more.
           </p>
           <ul>
-            <li><i class="bx bx-check-double"></i> English language powered by state-of-the-art open-sourced (e.g., mistral) or proprietary models (e.g., OpenAI).</li>
+            <li><i class="bx bx-check-double"></i> English language powered by state-of-the-art open-sourced (e.g.,
+              mistral) or proprietary models (e.g., OpenAI).</li>
             <li><i class="bx bx-check-double"></i> Thai language powered by our Thai embedding and instruct models.</li>
-            <li><i class="bx bx-check-double"></i> Allow researchers to upload their favorite papers, and then the AI will recommend styles and grammar learned from these papers.</li>
+            <li><i class="bx bx-check-double"></i> Allow researchers to upload their favorite papers, and then the AI
+              will recommend styles and grammar learned from these papers.</li>
             <li><i class="bx bx-check-double"></i> Import and export in your favorite format such as Word or LaTeX.</li>
           </ul>
+          <div class="mt-3">
+            <a target="_blank" href="http://scholarly.brain.cs.ait.ac.th"><button style="padding: 0px 60px 0px 60px;"
+                type="button" class="btn btn-outline-primary">{{
+                .Params.use_cases_btn1 }}</button></a>
+          </div>
         </div>
 
         <div class="col-lg-6 video-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
           <img src="/img/portfolio/write.jpg" class="img-fluid" alt="">
-          <a href="https://youtu.be/DXnu3WY3znc?si=jeBL3bA0_0lvZGZ-" class="glightbox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          <a href="https://youtu.be/DXnu3WY3znc?si=jeBL3bA0_0lvZGZ-" class="glightbox play-btn mb-4" data-vbtype="video"
+            data-autoplay="true"></a>
         </div>
 
       </div>
@@ -207,7 +335,6 @@
   </section><!-- End About Video Section -->
 
   <!-- ======= Partners Section ======= -->
-
   <!--  <section id="clients" class="clients">
     <div class="container">
       {{/*  <div class="section-title">
@@ -230,152 +357,6 @@
     </div>
   </section>  -->
 
-  <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio section-bg">
-    <div class="container" data-aos="fade-up">
-
-      <div class="section-title">
-        <h2>{{ .Params.use_cases_title }}</h2>
-        <p>{{ .Params.use_cases_slogan }}</p>
-      </div>
-
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="300">
-        
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="/img/portfolio/esg.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>{{ .Params.use_cases_title8 }}</h4>
-              <p>{{ .Params.use_cases_desc8 }}</p>
-            </div>
-          </div>
-          <div class="mt-3 text-center">
-            <button style="padding: 0px 60px 0px 60px;" type="button" class="btn btn-outline-primary">{{
-              .Params.use_cases_btn1 }}</button>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-          <a target="_blank" href="https://youtu.be/XV33FlJNbag">
-            <div class="portfolio-wrap">
-              <img src="/img/portfolio/mri_text.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>{{ .Params.use_cases_title7 }}</h4>
-                <p>{{ .Params.use_cases_desc7 }}</p>
-              </div>
-            </div>
-          </a>
-          <div class="mt-3 text-center">
-            <button style="padding: 0px 60px 0px 60px;" type="button" class="btn btn-outline-primary">{{
-              .Params.use_cases_btn1 }}</button>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-          <a target="_blank" href="https://youtu.be/TM8VHCVCgZg?si=1Myf2djAvSd6sA7V">
-            <div class="portfolio-wrap">
-              <img src="/img/portfolio/cs_text.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>{{ .Params.use_cases_title1 }}</h4>
-                <p>{{ .Params.use_cases_desc1 }}</p>
-              </div>
-            </div>
-          </a>
-          <div class="mt-3 text-center">
-            <a target="_blank" href="http://back.tokyo.cs.ait.ac.th/set_config_salegpt"><button style="padding: 0px 60px 0px 60px;" type="button" class="btn btn-outline-primary">{{
-              .Params.use_cases_btn1 }}</button></a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-          <a target="_blank" href="https://youtu.be/yaRK5x5v63w">
-            <div class="portfolio-wrap">
-              <img src="/img/portfolio/qa_text.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>{{ .Params.use_cases_title2 }}</h4>
-                <p>{{ .Params.use_cases_desc2 }}</p>
-              </div>
-            </div>
-          </a>
-          <div class="mt-3 text-center">
-            <a target="_blank" href="http://back.tokyo.cs.ait.ac.th/demo_knowledge_base"><button style="padding: 0px 60px 0px 60px;" type="button" class="btn btn-outline-primary">{{
-              .Params.use_cases_btn1 }}</button></a>
-          </div>
-        </div>
-
-       
-
-      </div>
-
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="300">
-        <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-          <a target="_blank" href="https://youtu.be/x0wkzPLoBjA">
-            <div class="portfolio-wrap">
-              <img src="/img/portfolio/interview_text.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>{{ .Params.use_cases_title3 }}</h4>
-                <p>{{ .Params.use_cases_desc3 }}</p>
-              </div>
-            </div>
-          </a>
-          <div class="mt-3 text-center">
-            <a target="_blank" href="http://back.tokyo.cs.ait.ac.th/demo_interview_part1"><button style="padding: 0px 60px 0px 60px;" type="button" class="btn btn-outline-primary">{{
-              .Params.use_cases_btn1 }}</button></a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-          <a target="_blank" href="https://youtu.be/Ljo_Um9fh_Y">
-            <div class="portfolio-wrap">
-              <img src="/img/portfolio/finance_text.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>{{ .Params.use_cases_title4 }}</h4>
-                <p>{{ .Params.use_cases_desc4 }}</p>
-              </div>
-            </div>
-          </a>
-          <div class="mt-3 text-center">
-            <a target="_blank" href="http://back.tokyo.cs.ait.ac.th/demo_finance_v2"><button style="padding: 0px 60px 0px 60px;" type="button" class="btn btn-outline-primary">{{
-              .Params.use_cases_btn1 }}</button></a>
-          </div>
-        </div>
-        
-        <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-          <a target="_blank" href="https://youtu.be/DXnu3WY3znc?si=jeBL3bA0_0lvZGZ-">
-            <div class="portfolio-wrap">
-              <img src="/img/portfolio/write_text.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>{{ .Params.use_cases_title5 }}</h4>
-                <p>{{ .Params.use_cases_desc5 }}</p>
-              </div>
-            </div>
-          </a>
-          <div class="mt-3 text-center">
-            <a target="_blank" href="http://scholarly.brain.cs.ait.ac.th"><button style="padding: 0px 60px 0px 60px;" type="button" class="btn btn-outline-primary">{{
-              .Params.use_cases_btn1 }}</button></a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-          <a target="_blank" href="https://youtu.be/eK-lxMjvbVU">
-            <div class="portfolio-wrap">
-              <img src="/img/portfolio/formal_text.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>{{ .Params.use_cases_title6 }}</h4>
-                <p>{{ .Params.use_cases_desc6 }}</p>
-              </div>
-            </div>
-          </a>
-          <div class="mt-3 text-center">
-            <a target="_blank" href="http://thai2gov.tokyo.cs.ait.ac.th/"><button style="padding: 0px 60px 0px 60px;" type="button" class="btn btn-outline-primary">{{
-              .Params.use_cases_btn1 }}</button></a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section><!-- End Portfolio Section -->
 
   <!-- ======= Services Section ======= -->
   <section id="services" class="services">
@@ -460,7 +441,7 @@
   </section><!-- End Sevices Section -->
 
   <!-- ======= Team Section ======= -->
-  {{/*  <section id="team" class="team">
+  {{/* <section id="team" class="team">
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
@@ -475,7 +456,8 @@
             <div class="member-img">
               <img src="/img/team/raymond.jpg" class="img-fluid" alt="">
               <div class="social">
-                <a target="_blank" href="https://www.linkedin.com/in/raymond-chee-109428/"><i class="bi bi-linkedin"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/raymond-chee-109428/"><i
+                    class="bi bi-linkedin"></i></a>
               </div>
             </div>
             <div class="member-info">
@@ -513,7 +495,8 @@
             <div class="member-info">
               <h4>Sanjeet Amatya</h4>
               <span>President, CBDO</span>
-              <span class="custom-smaller-font">Oversees the overall operations and business development of the company</span>
+              <span class="custom-smaller-font">Oversees the overall operations and business development of the
+                company</span>
             </div>
           </div>
         </div>
@@ -521,7 +504,7 @@
       </div>
 
     </div>
-  </section><!-- End Team Section -->  */}}
+  </section><!-- End Team Section --> */}}
 
   <!--<section id="pricing" class="pricing">
 
