@@ -33,7 +33,7 @@ team_title: Team
 team_slogan: Our dynamic team of AI experts, tech enthusiasts, and creative minds collaborates seamlessly to drive innovation. Committed to excellence and client success, we're shaping the future of AI with passion and purpose
 
 use_cases_title: Demo
-use_cases_slogan: This is what our AI Brain Engine can do
+use_cases_slogan: This is what our AI Brain Suite can do
 
 use_cases_title1: Customer Support
 use_cases_desc1: Provides 24/7 customer support, assisting users with product inquiries, troubleshooting, and order status updates efficiently and accurately.
@@ -61,7 +61,7 @@ use_cases_title8: ESG Reporting and Analysis
 use_cases_desc8: Automatic generation and analysis of ESG reports, saving time and consistency.
 
 service_title:  Connect to our API
-service_desc:  Our AI Brain Suite API service allows easy integration to your existing systems with our advanced models.
+service_desc:  Our AI Brain Engine API service allows easy integration to your existing systems with our advanced models.
 service_title_1: Thai Embedding API
 service_desc_1: This API allows you to utilize our Embedding API for developing your own Thai NLP applications including sentiment analysis, name entity recognition, knowledge retrieval and more.
 
