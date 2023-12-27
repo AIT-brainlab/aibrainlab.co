@@ -916,13 +916,13 @@ section {
   fill: #f5f5f5;
 }
 
-.services .icon-box h4 {
+.services .icon-box h5 {
   font-weight: 600;
   margin: 10px 0 15px 0;
-  font-size: 22px;
+  font-size: 16px;
 }
 
-.services .icon-box h4 a {
+.services .icon-box h5 a {
   color: #124265;
   transition: ease-in-out 0.3s;
 }
