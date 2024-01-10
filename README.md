@@ -1,3 +1,8 @@
+This reposistory is archived.
+Please use the new reposistory instead.
+https://github.com/AI-Brainlab/ai-brainlab.github.io
+
+
 # About this repository
 
 This repository is used for hosting the GitHub page of the AIT Brainlab website.
